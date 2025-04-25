@@ -86,4 +86,8 @@ let Shapes = new Shape();
 Shapes.circleArea(10);      
 Shapes.rectangleArea(2, 6); 
   
+/* OUTPUT ==>
+  Circle Area: 314
+ Rectangle Area: 12 */
+
 
