@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color : #B6B09F;
+  --secondary-color : #F2F2F2;
+  --bg-color : #000000;
+  --hover-color : #146c43;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--primary-color);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* HADER SECTION */
+.header {
+  background-color: var(--secondary-color);
+  /* border-bottom: 1px solid #dee2e6; */
+  padding: 20px 20px; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  max-height: 80px;
+  height: auto;
+  width: auto;
+  
+}
+
+.header h3 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    color: var(--bg-color);
+    margin: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--primary-color);
+}
+
+.logo {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--primary-color);
+  max-height: 80px;
+  height: auto;
+  width: auto;
+  
+}
+.btn-custom {
+  margin-left: 10px;
+  font-size: 19px;
+  padding: 10px 14px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  background-color: var(--bg-color);
+  border: 4px solid var(--primary-color);
+  
+}
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background-color: var(--bg-color);
+}
+/* ADD FORM SECTION */
+#product-form {
+  max-width: 600px;
+  margin: 40px auto;
+  display: none;
+}
+.card {
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.btn-primary-custom {
+  transition: all 0.3s ease;
+  background-color: var(--bg-color);
+  border: 4px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  /* transition: background-color 0.3s ease; */
+}
+.btn-primary-custom:hover {
+   transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+   border: 4px solid var(--hover-color);
+}
+/* Form Labels */
+.form-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+input.form-control {
+  border-radius: 10px;
+}
+/* BANNER SECTION  */
+  .banner {
+    background-color: var(--primary-color);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+      padding: 32px;
+    }
+    .product-card {
+      background:var(--secondary-color);
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: var(--card-shadow);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .product-card:hover {
+      transform: scale(1.02);
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 16px;
+      text-align: center;
+    }
+    .product-info h4 {
+      color: var(--primary-color);
+    }
+    #product-form {
+      max-width: 600px;
+      margin: 32px auto;
+      display: none;
+    }
+/* CART SECTION */
+    .cart-sidebar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 320px;
+      height: 100vh;
+      background: var(--secondary-color);
+      box-shadow: -2px 0 8px rgba(0,0,0,0.2);
+      padding: 16px;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      z-index: 1050;
+      overflow-y: auto;
+    }
+    .cart-sidebar.active {
+      transform: translateX(0);
+    }
+    .cart-sidebar .close-btn {
+      float: right;
+      font-size: 24px;
+      background: none;
+      border: none;
+      color: var(--bg-color);
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: var(--primary-color);
+      cursor: pointer;
+    }
+    .cart-item {
+      border-bottom: 1px solid #ddd;
+      padding: 8px  0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  .bi .bi-bag-heart-fill{
+    padding-left: 3px;
+  }
+    .cart-item img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+#offlineInput{
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
