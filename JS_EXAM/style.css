@@ -1,0 +1,110 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Mukta Mahee', sans-serif;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.header {
+  background: url('https://t4.ftcdn.net/jpg/07/05/56/21/360_F_705562152_WFSrWPNw6TqrxQ3MJzWzaZ1oeH3jLtUu.jpg') center/cover no-repeat;
+  color: white;
+  padding: 48px 16px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index:-1;
+}
+.header h2 {
+  font-weight: 800;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.header button {
+  border: 1px solid white !important;
+  font-weight: 600;
+}
+
+#taskFormContainer {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+#taskForm input,
+#taskForm select,
+#taskForm textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#taskForm button {
+  margin-top: 10px;
+}
+
+#priorityFilter,
+#searchInput {
+  border-radius: 6px;
+  border: 2px solid #061767;
+  box-shadow: none;
+}
+.card.task-card {
+  border-left: 6px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+.card.task-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+.task-card.low {
+  border-color: #28a745;
+}
+.task-card.medium {
+  border-color: #ffc107;
+}
+.task-card.high {
+  border-color: #dc3545;
+}
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+.card p {
+  margin-bottom: 4px;
+}
+.card small {
+  color: #888;
+}
+button.btn-danger {
+  background-color: #D5451B;
+  border: none;
+}
+button.btn-warning {
+  background-color: #FF9B45;
+  border: none;
+  color: #000;
+}
+button.btn-primary {
+  background-color: transparent !important;
+  border: none;
+}
+.filter{
+  font-size: 20px ;
+  font-weight: 700;
+  
+}
+

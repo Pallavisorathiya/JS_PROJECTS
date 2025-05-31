@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Fonts/stylesheet.css" />
+</head>
+<body>
+
+  <!-- Full-Width Header -->
+  <div class="header d-flex justify-content-between align-items-center px-4 py-3">
+    <h2>Task Manager</h2>
+    <button id="toggleFormBtn" class="btn btn-primary">Add Task </button>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container mt-4">
+
+    <!-- Task Form -->
+    <div id="taskFormContainer" class="card p-3 mb-4 d-none">
+      <form id="taskForm">
+        <div class="row g-2">
+          <div class="col-md-4">
+            <input type="text" id="title" class="form-control" placeholder="Title" required>
+          </div>
+          <div class="col-md-4">
+            <input type="date" id="dueDate" class="form-control" required>
+          </div>
+          <div class="col-md-4">
+            <select id="priority" class="form-select">
+              <option value="Low">Low</option>
+              <option value="Medium" selected>Medium</option>
+              <option value="High">High</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <textarea id="description" class="form-control" placeholder="Description"></textarea>
+          </div>
+          <div class="col-12 text-end">
+            <button type="submit" class="btn btn-success">Save Task</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+<!-- Filter and Search -->
+<div class=" filter row mb-3">
+  <div class="col-md-6">
+    <label class="form-label">Filter by Priority</label>
+    <select id="priorityFilter" class="form-select">
+      <option value="all">All</option>
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Search by Title</label>
+    <input type="text" id="searchInput" class="form-control" placeholder="Search tasks...">
+  </div>
+</div>
+
+<!-- Task List -->
+    <div id="taskList" class="row g-3"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

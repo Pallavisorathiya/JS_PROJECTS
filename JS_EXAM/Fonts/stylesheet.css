@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee.woff2') format('woff2'),
+        url('MuktaMahee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-ExtraLight.woff2') format('woff2'),
+        url('MuktaMahee-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee.woff2') format('woff2'),
+        url('MuktaMahee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Medium.woff2') format('woff2'),
+        url('MuktaMahee-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Light.woff2') format('woff2'),
+        url('MuktaMahee-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-SemiBold.woff2') format('woff2'),
+        url('MuktaMahee-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Light.woff2') format('woff2'),
+        url('MuktaMahee-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Medium.woff2') format('woff2'),
+        url('MuktaMahee-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Light.woff2') format('woff2'),
+        url('MuktaMahee-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee.woff2') format('woff2'),
+        url('MuktaMahee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee.woff2') format('woff2'),
+        url('MuktaMahee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Medium.woff2') format('woff2'),
+        url('MuktaMahee-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-ExtraBold.woff2') format('woff2'),
+        url('MuktaMahee-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-SemiBold.woff2') format('woff2'),
+        url('MuktaMahee-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-ExtraBold.woff2') format('woff2'),
+        url('MuktaMahee-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-ExtraBold.woff2') format('woff2'),
+        url('MuktaMahee-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Bold.woff2') format('woff2'),
+        url('MuktaMahee-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Bold.woff2') format('woff2'),
+        url('MuktaMahee-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee.woff2') format('woff2'),
+        url('MuktaMahee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-ExtraLight.woff2') format('woff2'),
+        url('MuktaMahee-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Regular.woff2') format('woff2'),
+        url('MuktaMahee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Regular.woff2') format('woff2'),
+        url('MuktaMahee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee.woff2') format('woff2'),
+        url('MuktaMahee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee.woff2') format('woff2'),
+        url('MuktaMahee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Bold.woff2') format('woff2'),
+        url('MuktaMahee-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-Regular.woff2') format('woff2'),
+        url('MuktaMahee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-SemiBold.woff2') format('woff2'),
+        url('MuktaMahee-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('MuktaMahee-ExtraLight.woff2') format('woff2'),
+        url('MuktaMahee-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
